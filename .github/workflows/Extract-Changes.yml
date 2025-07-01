@@ -1,0 +1,27 @@
+name: Extract Changes
+
+on:
+  push:
+    paths:
+      - '**.txt'  # or specify specific file types you're interested in
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Important! Full history needed for proper diffs
+
+      - name: Extract Changes
+        run: |
+          echo "🔍 Extracting added lines from modified files..."
+          git diff HEAD^ HEAD > diff.txt
+          echo "📄 Diff output saved to diff.txt"
+
+          echo "📥 Extracting added lines..."
+          grep '^+' diff.txt | grep -v '^+++' > added_lines.txt
+          echo "✅ Added lines extracted:"
+          cat added_lines.txt
