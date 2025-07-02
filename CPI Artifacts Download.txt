@@ -1,6 +1,0 @@
-Artifact1 V1.0.1
-Artifact2 V1.0.1
-Artifact3 V1.0.2
-Artifact4 V1.0.1
-Artifact5 V1.0.0
-
