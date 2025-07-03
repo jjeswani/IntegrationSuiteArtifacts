@@ -11,11 +11,13 @@ jobs:
 
     steps:
       - name: Checkout code
+        id: step0
         uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Important! Full history needed for proper diffs
 
       - name: Extract Changes
+        id: step1
         run: |
           echo "🔍 Extracting added lines from modified files..."
           git diff HEAD^ HEAD > diff.txt
