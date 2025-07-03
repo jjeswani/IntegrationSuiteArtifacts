@@ -24,3 +24,9 @@ jobs:
           grep '^+' diff.txt | grep -v '^+++' | sed 's/^+//' > added_lines.txt
           echo "✅ Added/Deleted/Changed lines extracted:"
           cat added_lines.txt
+    - name: Call BTP CI (Abhay's Trial Account) API with curl
+        run: |
+          curl -X GET https://589d90eftrial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/http/SyncArtifacts/GITHUB \
+               -H "Content-Type: application/text" \
+               -H "Authorization: Bearer ${{ secrets.API_KEY }}" \
+               -d '{"message": "Hello from GitHub Actions!"}'
