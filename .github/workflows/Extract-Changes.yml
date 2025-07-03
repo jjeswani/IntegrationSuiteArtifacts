@@ -26,8 +26,11 @@ jobs:
           grep '^+' diff.txt | grep -v '^+++' | sed 's/^+//' > added_lines.txt
           echo "✅ Added/Deleted/Changed lines extracted:"
           cat added_lines.txt
-          value=$(cat added_lines.txt)
-          echo "fileoutput=$value" >> $GITHUB_OUTPUT
+          {
+          echo 'fileoutput<<EOF'
+          cat added_lines.txt
+          echo EOF
+          } >> "$GITHUB_OUTPUT"
 
       - name: Call BTP CI IFlow
         run: |
