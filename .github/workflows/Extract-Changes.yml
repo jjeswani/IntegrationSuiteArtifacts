@@ -38,4 +38,4 @@ jobs:
           curl -X GET https://589d90eftrial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/http/SyncArtifacts/GITHUB \
                -H "Content-Type: application/text" \
                -H "Authorization: Bearer ${{ secrets.API_KEY }}" \
-               -d ${{steps.step1.outputs.fileoutput}}
+               -d '${{steps.step1.outputs.fileoutput}}'
