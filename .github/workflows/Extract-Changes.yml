@@ -30,4 +30,6 @@ jobs:
           curl -X GET https://589d90eftrial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/http/SyncArtifacts/GITHUB \
                -H "Content-Type: application/text" \
                -H "Authorization: Bearer ${{ secrets.API_KEY }}" \
-               -d '{"message": "Hello from GitHub Actions!"}'
+               -d 'POCArtifactsBackup,Iflow,BTP_IS_Artifacts_Backup_Test,1.0.3,01.07.2025,abhay.q.kumar@accenture.com
+                   POCArtifactsBackup,Iflow,POC_ArtifactsBackUp,1.0.4,26.06.2025,abhay.q.kumar@accenture.com
+                   POCArtifactsBackup,Iflow,POC_ArtifactsBackUp25,1.0.3,25.06.2025,abhay.q.kumar@accenture.com'
