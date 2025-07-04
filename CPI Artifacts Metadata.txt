@@ -1,4 +1,2 @@
-POCArtifactsBackup,Iflow,ArtifactsSyncwithGIT,1.0.0,03.07.2025,Jitendra@accenture.com
-POCArtifactsBackup,Iflow,IFLOW1,1.0.1,01.07.2025,Jitendra@accenture.com
-POCArtifactsBackup,Iflow,IFLOW2,1.0.0,01.07.2025,abhay.q.kumar@accenture.com
-POCArtifactsBackup,Iflow,IFLOW3,1.0.0,25.06.2025,abhay.q.kumar@accenture.com
+Package1,Iflow,IFLOW1,1.0.0,01.07.2025,Jitendra@accenture.com
+Package1,Iflow,IFLOW2,1.0.0,01.07.2025,abhay.q.kumar@accenture.com
