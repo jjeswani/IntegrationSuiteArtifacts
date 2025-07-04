@@ -1,3 +1,3 @@
-Package1,Iflow,IFLOW1,1.0.0,01.07.2025,Jitendra@accenture.com
-Package1,Iflow,IFLOW2,1.0.0,01.07.2025,abhay.q.kumar@accenture.com
-Package1,Iflow,IFLOW3,1.0.0,01.07.2025,abhay.q.kumar@accenture.com
+Package1,Iflow,IFLOW1,1.0.0,01.07.2025,JJ@gmail.com
+Package1,Iflow,IFLOW2,1.0.0,01.07.2025,JJ@gmail.com
+Package1,Iflow,IFLOW3,1.0.0,01.07.2025,JJ@gmail.com
