@@ -3,7 +3,7 @@ name: Extract Changes
 on:
   push:
     paths:
-      - '**.txt'  # or specify specific file types you're interested in
+      - 'CPI_Artifacts_Metadata.txt'  # or specify specific file types you're interested in
 
 jobs:
   extract:
