@@ -3,8 +3,8 @@
 
 Package;ArtifactType;ArtifactID;Version;ChangedOn;ChangedBy
 AdvancedEventMeshAdapterforSAPIntegrationSuite;;;;;
+ASGPlayground;Integration Flow;Dummy_iFlow;1.0.3;21.07.2025 15:26:19;mika.paulus@accenture.com
 ASGPlayground;Integration Flow;Generic_Outbound_IFlow_for_CPEX_Flows;Active;17.07.2025 10:07:47;jitendra.jeswani@accenture.com
-ASGPlayground;Integration Flow;Dummy_iFlow;1.0.2;21.07.2025 15:19:46;mika.paulus@accenture.com
 DocusignAdapterforSAPIntegrationSuite;;;;;
 GermnayAssets;Integration Flow;UC3_Integration_Content_Catalog_Creation_IS_to_GIT_adjusted;Active;10.07.2025 15:31:27;abhay.q.kumar@accenture.com
 GermnayAssets;Integration Flow;Event_Consumer_1;Active;27.06.2025 07:43:38;jitendra.jeswani@accenture.com
