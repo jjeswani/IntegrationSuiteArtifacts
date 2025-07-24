@@ -23,5 +23,5 @@ GermnayAssets;IntegrationFlow;Event_Consumer_1;1.0.2;21.07.2025 16:16:18;mika.pa
 GermnayAssets;IntegrationFlow;UC3_ArtifactsSyncwithGIT;Active;23.07.2025 11:23:51;mika.paulus@accenture.com
 GermnayAssets;IntegrationFlow;UC4_HowToUsePartnerDirectory;Active;16.07.2025 22:17:30;jitendra.jeswani@accenture.com
 GermnayAssets;IntegrationFlow;UC3_ArtifactsSyncwithGIT_Dispatcher;Active;24.07.2025 08:13:15;mika.paulus@accenture.com
-GermnayAssets;IntegrationFlow;UC3_Integration_Content_Catalog_Creation_IS_to_GIT_adjusted;Active;24.07.2025 08:27:14;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC3_Integration_Content_Catalog_Creation_IS_to_GIT_adjusted;Active;24.07.2025 08:29:00;mika.paulus@accenture.com
 IntegrationSuiteFirstPoC;IntegrationFlow;Integration_Flow_PoC;Active;02.02.2024 16:14:35;frederic.agneray@accenture.com
